@@ -298,8 +298,8 @@ button.btn-flat {
   .btn_nav{
     position: relative;
     background:#1e8b2b;
-    width: 40px;
-    height:40px;
+    width: 60px;
+    height:60px;
     border-radius: 5px;
   }
   .btn_nav span{
@@ -308,21 +308,21 @@ button.btn-flat {
       border-radius: 2px;
       background: #fff;
       position: absolute;
-      left: 20%;
+      left: 18%;
       height: 3px;
       transition: all .4s;
     }
   .btn_nav span:nth-of-type(1) {
-    top:8px; 
+    top:13px; 
   }
   .btn_nav span:nth-of-type(2) {
-    top:18px;
+    top:27px;
   }
   .btn_nav span:nth-of-type(3) {
-    top:28px;
+    top: 42px;
   }
   .btn_nav.active span:nth-of-type(1) {
-      top: 13px;
+      top: 23px;
       left: 25%;
       transform: translateY(6px) rotate(-45deg);
       width: 50%;
@@ -331,7 +331,7 @@ button.btn-flat {
     opacity: 0;
   }
   .btn_nav.active span:nth-of-type(3){
-      top: 25px;
+      top: 35px;
       left: 25%;
       transform: translateY(-6px) rotate(45deg);
       width: 50%;

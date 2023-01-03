@@ -352,7 +352,10 @@ button.btn-flat {
     height: 50vh;
     text-align: center;
   }
-  
+  .header_img {
+    max-width: 100%;
+    width: 90%;
+  }
   .header_menusp ul {
     background-color: rgba(91, 91, 91, 0.749);
     width: 30%;

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODM</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./sass/loading.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+</head>
+    <body>
+        
+    <div class="opening_animation">
+        <div id="loading">
+            <div id="innerText" class="flip">&#8756;</div>
+            <div class="circle ani-spin"></div>
+        </div>
+        <div class="load">
+              <h2>...Loading...</h2>
+        </div>
+    </div>
+    <!-- /.opening_animation -->
+<div class="wrap">
+
+    <header>
+        <div class="header_inner">
+            <div class="header_img">
+                <img src="./img/ODMロゴ.jpg" alt="ODMロゴ">
+            </div>
+            <!-- /.header_img -->
+            <!-- 逆順に並んでいる↓ -->
+            <div class="header_menu">
+                <a href="#inquiry">お問い合わせ</a>
+                <a href="#example">施工事例</a>
+                <a href="#material">素材について</a>
+                <a href="#about">ODMとは</a>
+            </div>
+            <!-- ハンバーガーメニュー↓ -->
+            <div class="header_menusp">
+                <div class="btn_nav">
+                    <span></span><span></span><span></span>
+                </div>
+                <!-- /.click -->
+                <nav>
+                    <ul>
+                        <li><a href="#about">ODMとは</a></li>
+                        <li><a href="#material">素材について</a></li>
+                        <li><a href="#example">施工事例</a></li>
+                        <li><a href="#inquiry">お問い合わせ</a></li> 
+                    </ul>
+                </nav>
+            </div>
+            <!-- /.header_menusp -->
+        </div>
+        <!-- /.header_inner -->
+    </header>
+    <main>
+        <div id="about" class="about_inner">
+            <div class="about_box ttl1">
+                <h2>ODMとは。</h2>
+            </div>
+            <!-- /.about_box -->
+            <div class="about_box ttl2">
+                <h2>サブタイトル</h2>
+            </div>
+            <!-- /.about_box -->
+            <div class="about_box tex1">
+                <h2>説明文</h2>
+            </div>
+            <!-- /.about_box -->
+        </div>
+        <!-- /.about_inner -->
+        <div id="material" class="material_inner">
+            <div class="material_flex">
+                <div class="material_text">
+                    <div class="material_ttl"><h2>素材</h2></div>
+                    <!-- /.material_ttl -->
+                    <div class="material_tex">
+                        <p>ここに素材がはいります説明文。ここに素材がはいります説明文。ここに素材がはいります説明文。ここに素材がはいります説明文。ここに素材がはいります説明文。ここに素材がはいります説明文。ここに素材がはいります説明文。ここに素材がはいります説明文。ここに素材がはいります説明文。ここに素材がはいります説明文。ここに素材がはいります説明文。</p>
+                    </div>
+                </div>
+                <!-- /.material_text -->
+                <div class="material_img">
+                    <img src="./img/22601592.jpg" alt="畳">
+                </div>
+            </div>
+            <!-- /.material_flex -->
+        </div>
+        <!-- /.material_inner -->
+        <div  id="example" class="example_inner">
+            <h2>作成事例</h2>
+            <div class="example_imgflex">
+                <img src="./img/22601592.jpg" alt="例">
+                <img src="./img/22601592.jpg" alt="例">
+                <img src="./img/22601592.jpg" alt="例">
+                <img src="./img/22601592.jpg" alt="例">
+                <img src="./img/22601592.jpg" alt="例">
+                <img src="./img/22601592.jpg" alt="例">
+            </div>
+            <!-- /.example_imgflex -->
+        </div>
+        <!-- /.example_inner -->
+    </main>
+    <footer>
+        <div  id="inquiry" class="inquiry_inner">
+            <h2>お問い合わせ</h2>
+            <div class="inquiry_form">
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScSVOD4U8CXRE2lbD7nIAXLL4SiAwMRoRwjNjY0f1dlqSITrQ/formResponse" method="post"target="hidden_iframe"
+                onsubmit="submitted=true;">
+                    <input type="text" name="entry.1688661834" value="" placeholder="名前" />
+                    <br>
+                    <input type="tel" name="entry.1320547563" value="" placeholder="電話番号" />
+                    <br>
+                    <input type="mail" name="entry.1311739034" value="" placeholder="メールアドレス" />
+                    <br>
+
+                    <div class="inquiry_flex">
+                        <input type="radio" name="entry.1047665878"  value="お問い合わせ">
+                        <span>お問い合わせ</span>
+                    </div>
+                    <div class="inquiry_flex">
+                        <input type="radio" name="entry.1047665878"  value="見積もり">
+                        <span>お見積もり</span>
+                    </div>
+                    <br>
+                    <textarea name="entry.672136314" placeholder="お問い合わせ本文" tabindex="1"></textarea>
+                    <div class="c-form__submit">
+                        <button type="submit" class="btn btn-flat">送信する</button>
+                    </div>
+                </form>
+                <script type="text/javascript">
+                    let submitted = false;
+                </script>
+                <iframe
+                name="hidden_iframe"
+                id="hidden_iframe"
+                style="display: none"
+                onload="if(submitted){window.location='thanks.html' ; }">
+                </iframe>
+            </div>
+        </div>
+        <!-- /.inquiry_inner -->
+    </footer>
+
+</div>
+
+        <!-- js読み込み -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="./js/slick.min.js"></script> 
+        <script src="./js/index.js"></script>
+    </body>
+</html>

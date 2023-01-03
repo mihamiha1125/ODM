@@ -388,7 +388,7 @@ button.btn-flat {
   .material_tex {
     writing-mode: vertical-rl;
     text-align: center;
-    height: 15vh;
+    height: 20vh;
     font-size: 11px;
   }
   .material_img {
@@ -396,7 +396,7 @@ button.btn-flat {
     width: 100%;
   }
   .material_img img {
-    height: 20vh;
+    height: 25vh;
     object-fit: cover;
   }
   .example_imgflex img {
